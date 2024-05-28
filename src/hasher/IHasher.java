@@ -1,5 +1,7 @@
 package hasher;
 
-public interface IHasher {
-    String hash(String text);
+import java.security.NoSuchAlgorithmException;
+
+public interface IHasher  {
+    String hash(String password);
 }
