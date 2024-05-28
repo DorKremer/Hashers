@@ -17,6 +17,10 @@ public class ReversedPassword implements IHasher {
 
     @Override
     public String hash(String password) {
-        return password;
+        String res="";
+        for (int i = password.length()-1; i >= 0; i--) {
+            res=res.concat(String.valueOf(password.charAt(i)));
+        }
+        return res;
     }
 }
