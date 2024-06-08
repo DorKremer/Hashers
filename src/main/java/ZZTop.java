@@ -1,6 +1,4 @@
-package hasher;
-
-import java.security.MessageDigest;
+package main.java;
 
 public class ZZTop implements IHasher {
     private static ZZTop instance;

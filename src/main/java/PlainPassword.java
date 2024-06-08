@@ -1,4 +1,4 @@
-package hasher;
+package main.java;
 
 public class PlainPassword implements IHasher{
 
