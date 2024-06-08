@@ -27,7 +27,7 @@ public class SHA256 implements IHasher {
             System.out.println("There was an error retrieving the algorithm!");
         }
         final byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
-        return new String(bytesToHex(hash));
+        return bytesToHex(hash);
     }
 
     private String bytesToHex(byte[] bytes) {
