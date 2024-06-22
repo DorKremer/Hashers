@@ -1,10 +1,6 @@
-package main.test;
-import static org.junit.Assert.assertEquals;
+package com.hit.algorithm;
 
-import main.java.PlainPassword;
-import main.java.ReversedPassword;
-import main.java.SHA256;
-import main.java.ZZTop;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 

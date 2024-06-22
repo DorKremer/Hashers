@@ -1,4 +1,4 @@
-package main.java;
+package com.hit.algorithm;
 
 public class PlainPassword implements IHasher{
 

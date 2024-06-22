@@ -1,4 +1,4 @@
-package main.java;
+package com.hit.algorithm;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
